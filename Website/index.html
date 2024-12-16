@@ -24,14 +24,14 @@
         <section id="stories">
             <h2>Today’s Specials</h2>
             <article>
-                <h3>The Thanksgiving Massacree</h3>
-                <p>A tale about a dump, a VW microbus, and a half-ton of garbage.</p>
-                <a href="#">Read More</a>
+                <h3>Insert Name 1</h3>
+                <p>A fascinating tale about life, lessons, and laughter.</p>
+                <a href="#" class="read-more" data-story="story1">Read More</a>
             </article>
             <article>
                 <h3>The Group W Bench</h3>
                 <p>Where moral ambiguity meets camaraderie.</p>
-                <a href="#">Read More</a>
+                <a href="#" class="read-more" data-story="story2">Read More</a>
             </article>
         </section>
 
@@ -55,6 +55,15 @@
     <footer>
         <p>© 2024 Alice's Restaurant Conversation. All rights reserved.</p>
     </footer>
+
+    <!-- Modal Structure -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h3 id="modal-title"></h3>
+            <p id="modal-body"></p>
+        </div>
+    </div>
 
     <script src="script.js"></script>
 </body>
